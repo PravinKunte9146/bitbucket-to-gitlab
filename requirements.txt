@@ -1,3 +1,4 @@
 atlassian-python-api~=3.12
 python-gitlab~=2.9
 tqdm>=4,<5
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
